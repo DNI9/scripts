@@ -2,6 +2,9 @@
 
 ### Install:
     sudo apt install repo bc pxz wput
+or
+
+    sudo apt-get install repo bc pxz wput
     
 ### Compress It:
     export XZ_OPT=-9e
