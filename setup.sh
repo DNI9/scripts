@@ -8,6 +8,9 @@ sudo apt-get install bison
 sudo apt-get install bc
 sudo apt-get install gcc
 sudo apt-get install ccache
+
+git config --global user.email "itsr9boi@gmail.com"
+git config --global user.name "DNI9"
 git clone https://github.com/akhilnarang/scripts.git scripts
 bash scripts/setup/android_build_env.sh
 mkdir ~/bin
@@ -15,6 +18,4 @@ PATH=~/bin:$PATH
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
-git config --global user.email "itsr9boi@gmail.com"
-git config --global user.name "DNI9"
-wget https://github.com/DNI9/scripts/raw/master/gdrive.sh
+# wget https://github.com/DNI9/scripts/raw/master/gdrive.sh
