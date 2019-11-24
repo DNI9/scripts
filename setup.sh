@@ -9,6 +9,7 @@ sudo apt-get install bc
 sudo apt-get install gcc
 sudo apt-get install ccache
 sudo apt-get install pxz wput
+sudo apt-get install megatools
 
 git config --global user.email "itsr9boi@gmail.com"
 git config --global user.name "DNI9"
